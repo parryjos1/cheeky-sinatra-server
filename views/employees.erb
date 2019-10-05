@@ -1,0 +1,16 @@
+
+<div class="container">
+
+            <form method="get" action="/employees/add" >
+                <input type="submit" value="Add new employee"></input>
+            </form>
+    <div class="employees">
+        <ul>
+            <% @employees.each do |employee| %>
+            <a href="/employees/<%= employee['id'] %> ">
+                <li><%= employee['first_name']%></li>
+            </a>
+            <% end %>
+        </ul>
+    </div>
+</div>

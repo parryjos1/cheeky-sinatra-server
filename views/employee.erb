@@ -1,0 +1,24 @@
+<div class="employee">
+
+
+<h2> Employee: <%= @employee[0]['first_name'] %> </h2>
+<div class="employee-btns">
+    <form method="get" action="/employees" >
+        <input type="submit" value="Back To Home"></input>
+    </form>
+    <form method="get" action="/employees/edit/<%= @employee[0]['id'] %>" >
+        <input type="submit" value="Edit"></input>
+    </form>
+
+    <form method="get" action="/employees/<%= @employee[0]['id'] %>/delete" >
+        <input type="submit" value="Delete"></input>
+    </form>
+</div>
+
+
+<p> Business Title: <%= @employee[0]['business_title'] %></p>
+<p> Salary: <%= @employee[0]['salary'] %></p>
+
+</div>
+
+

@@ -1,0 +1,52 @@
+body {
+    background-color: #cc342d;
+}
+
+.title {
+    color: white;
+    font-size: 60px;
+    text-align: center;
+}
+
+.container {
+    width: 30vw;
+    min-height: 50vh;
+    margin-left: 35vw;
+    margin-top: 10vh;
+    background-color: white;
+    -webkit-box-shadow: 7px 9px 33px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 7px 9px 33px -5px rgba(0,0,0,0.75);
+    box-shadow: 7px 9px 33px -5px rgba(0,0,0,0.75);
+    /* Source: https://www.cssmatic.com/box-shadow */
+    border-radius: 20px;
+}
+
+.employees {
+    padding-left: 9vw;
+    padding-top: 3vh;
+    font-size: 25px;
+}
+
+.employees a {
+    list-style-type: none;
+    text-decoration: none;
+}
+.employees a:hover {
+    text-decoration: underline;
+    font-size: 30px;
+}
+
+.container input {
+    height: 6vh;
+    width: 25vh;
+    margin-left: 7.5vw;
+    margin-top: 3vh;
+    font-size: 20px;
+    border: solid black 2px;
+    border-radius: 10px;
+}
+
+.container input:hover {
+    border: solid black 4px;
+    background-color: lightgray;
+}
